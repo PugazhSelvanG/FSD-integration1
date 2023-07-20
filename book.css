@@ -1,0 +1,95 @@
+.reservation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* .heading {
+    font-size:200px;
+    margin-bottom: 20px;
+    
+  } */
+  .he1
+  {
+    background-image: url("../Signup/table-set-dinning-table.jpg");
+    /* background-position: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 140vh;
+  }
+  .reservation-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    padding:2cm;
+  }
+  
+  .form-group {
+    margin-left:cm;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* input[type="text"], */
+  /* input[type="email"], */
+  input[type="date"],
+  input[type="number"],
+  input[type="time"],
+  select {
+    padding: 5px;
+    border: 1px solid #22a3ba;
+    border-radius:40px;
+    height:1cm;
+    width:5cm;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #1f9dcb;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .reserved-tables {
+    margin-top: 10px;
+  }
+  
+  .reservation-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius:30px;
+  }
+
+  .hea h2
+  {
+    color:rgb(55, 86, 100);
+    text-align: center;
+    
+  }
+  .clr{
+    background-color:rgba(252, 250, 250, 0.5);
+    border-radius:3cm;
+    position: absolute;
+    padding:2cm;
+    width: 9cm;
+    margin-left: 15cm;
+  }
+  .form-group button{
+    width: 100%;
+    background-color: rgb(20, 134, 64);
+    border: none;
+    color: rgb(235, 240, 236);
+    height: 1cm;
+    border-radius:30px;
+  }
